@@ -24,7 +24,7 @@
 
 ### Grading
 
-TBA
+Look at first day part of [lecture slide](lecture.pdf).
 
 ### Questions
 
