@@ -11,6 +11,8 @@
 
 ## Announcements
 
+Lecture slide is uploaded [here](lecture.pdf)
+
 ## Assignments
 
 | Due        	| Due (Delay)	| Description                   	 	 	 	 	 	 	 	 	 	 	 	 	 	| Points 	|
@@ -44,7 +46,7 @@ TBA
     + Eclipse, IntelliJj IDEA: I haven't used it, but you may easily find information on google.
 
 - Etc.
-    + Coursera course's tool setting: [Coursera](https://www.coursera.org/learn/progfun1/home/week/1).
+    + Coursera course's [tool setting](https://www.coursera.org/learn/progfun1/home/week/1).
 
 ### Coursera's Scala Course
 
