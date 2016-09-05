@@ -11,7 +11,7 @@
 
 ## Announcements
 
-Lecture slide is uploaded [here](lecture.pdf)
+- 09/05: Lecture slide is uploaded [here](lecture.pdf). Slides will not be separated into parts, rather it will be continuously appended to this single file. So check it regularly.
 
 ## Assignments
 
