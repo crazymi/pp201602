@@ -25,6 +25,8 @@ object main {
    and "sbt test" to run given simple tests, just for sanity check.
    Passing "sbt test" does *NOT* ensure your assignment passes our real test data.
 
+   You should *NOT* import any library.
+
    Before asking for clarification of problem statement, look through test data.
 
    For below exercises, there will be no big test data.
