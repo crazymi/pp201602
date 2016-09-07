@@ -1,7 +1,7 @@
 # Programming Principles, SNU 4190.210, 2016 Fall
 
 - Instructor: Prof. [Chung-Kil Hur](http://sf.snu.ac.kr/gil.hur)
-- TA: [YoungJu Song](http://sf.snu.ac.kr/youngju.song)
+- TA: [YoungJu Song](http://sf.snu.ac.kr/youngju.song), [Yoonseung Kim](http://sf.snu.ac.kr/yoonseung.kim/)
     + Email address: [pp201602@sf.snu.ac.kr](mailto:pp201602@sf.snu.ac.kr).
         * Send emails for administrative matters only. Use the [GitHub repository issue tracker](https://github.com/snu-sf-class/pp201602/issues).
         * *DO NOT* send emails to `youn...@sf.snu.ac.kr`.
