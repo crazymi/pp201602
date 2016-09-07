@@ -11,6 +11,24 @@ class TestSuite extends FunSuite {
   }
 
   test("bbalance") {
+    assert(bbalance("""
+   Example of bbalanced: "(*)(*)"
+""".toList))
+    assert(bbalance("""
+   Example of bbalanced: "(()*())"
+""".toList))
+    assert(bbalance("""
+   Example of bbalanced: "(*())"
+""".toList))
+    assert(!bbalance("""
+   Example of not bbalanced: "*()"
+""".toList))
+    assert(!bbalance("""
+   Example of not bbalanced: "()*()"
+""".toList))
+  }
+
+  test("bbalance-misc") {
     assert(bbalance("(((())))".toList))
     assert(bbalance("""
    Exercise 2: Parentheses BBalancing.
@@ -27,12 +45,6 @@ class TestSuite extends FunSuite {
    Example of not balanced: "ppp)iii(kkk)aaa(ccc", "hhh(uuu()"
    Also, "*" is a bomb. So this exercise is called "BBalancing".
    If "*" appears between balanced parentheses, return false.
-""".toList))
-    assert(bbalance("""
-   Example of bbalanced: "(*)(*)"
-""".toList))
-    assert(!bbalance("""
-   Example of not bbalanced: "()*()"
 """.toList))
   }
 

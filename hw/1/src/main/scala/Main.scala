@@ -62,8 +62,12 @@ object main {
    Example of balanced: "(aaa(bb)ccc)", "aaa(eee)iii(ooo)uuu".
    Example of not balanced: "ppp)iii(kkk)aaa(ccc", "hhh(uuu()"
    Also, "*" is a bomb. So this exercise is called "BBalancing".
-   If "*" appears between balanced parentheses, return false.
+   If there exists some "(", ")" and "*" is inside them, bomb is safe so ignore it.
+   Otherwise, if bomb appears out of all parentheses, you should return false.
    Example of bbalanced: "(*)(*)"
+   Example of bbalanced: "(()*())"
+   Example of bbalanced: "(*())"
+   Example of not bbalanced: "*()"
    Example of not bbalanced: "()*()"
    */
   def bbalance(chars: List[Char]): Boolean = ???
