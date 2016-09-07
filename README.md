@@ -49,10 +49,6 @@ Look at first day part of [lecture slide](lecture.pdf).
 - Etc.
     + Coursera course's [tool setting](https://www.coursera.org/learn/progfun1/home/week/1).
 
-### Coursera's Scala Course
-
-- This course will follow Coursera's Scala Course [1](https://www.coursera.org/learn/progfun1/) and [2](https://www.coursera.org/learn/progfun1/) by Martin Odersky, the author of Scala.
-
 ### Assignment
 
 - Assignments will be issued every Wednesday.  The deadline is the next Sunday (10 days later).  The deadline for the delayed submission is the next to the next Sunday (17 days later).
