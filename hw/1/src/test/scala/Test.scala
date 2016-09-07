@@ -48,13 +48,6 @@ class TestSuite extends FunSuite {
 """.toList))
   }
 
-  test("bbalance-coursera examples") {
-    assert(bbalance("(if (zero? x) max (/ 1 x))".toList))
-    assert(bbalance("I told him (that it's not (yet) done).\n(But he wasn't listening)".toList))
-    assert(!bbalance(":-)".toList))
-    assert(!bbalance("())(".toList))
-  }
-
   test("countChange-4") {
     assert(countChange(4,0,List(1,2)) === 0)
     assert(countChange(4,1,List(1,2)) === 0)
@@ -72,12 +65,5 @@ class TestSuite extends FunSuite {
     assert(countChange(5,4,List(1,2,3,5)) === 5)
     assert(countChange(5,5,List(1,2,3,5)) === 6) // 1 1 1 1 1
     assert(countChange(5,999,List(1,2,3,5)) === 6)
-  }
-
-  test("countChange-coursera examples") {
-    assert(countChange(4,999,List(1,2)) === 3)
-    assert(countChange(300,999,List(5,10,20,50,100,200,500)) === 1022)
-    assert(countChange(301,999,List(5,10,20,50,100,200,500)) === 0)
-    assert(countChange(300,999,List(500,5,50,100,20,200,10)) === 1022)
   }
 }
