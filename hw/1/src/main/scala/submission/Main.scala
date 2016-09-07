@@ -1,3 +1,5 @@
+package submission
+
 object main {
   def main(args: Array[String]) {
     // Type "sbt run" in this project's home directory,

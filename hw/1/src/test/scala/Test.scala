@@ -1,5 +1,5 @@
 import org.scalatest._
-import main._
+import submission.main._
 
 class TestSuite extends FunSuite {
   test("ppascal") {
