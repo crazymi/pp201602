@@ -74,13 +74,23 @@ object main {
    */
   def fibB(n: Int): BigInt = {
     /*
-     This skeleton code is just for hint.
-     You may implement this problem in your own way.
-     idx := current index
-     current := Fibonacci number for idx.
-     past := Fibonacci number for idx-1.
+     This skeleton code is just for hint. You may implement this problem in your own way.
+     n := index for Fibonacci number, n >= 2
+     output := (n-1)'th Fibonacci number and n'th Fibonacci number
      */
-    def _fibB(idx: Int, current: BigInt, past: BigInt): BigInt = ???
+    /*
+     You can implement remaining parts without knowledge of pair type.
+     If you want to know more about pair/tuple, search "scala tuple" on google.
+     In short, you can build tuple with "(_, _, _, .. _,)" syntax,
+     and get n'th element with "._n".
+     */
+    def _fibB(n: Int): (BigInt, BigInt) = {
+      if(???) ???
+      else {
+        val (pastPast, past) = _fibB(n - 1)
+        ???
+      }
+    }
     ???
   }
 
@@ -91,6 +101,13 @@ object main {
    You may assume 1 <= n <= 10^3.
    */
   def fibC(n: Int): BigInt = {
+    /*
+     This skeleton code is just for hint. You may implement this problem in your own way.
+     idx := current index
+     current := Fibonacci number for idx.
+     past := Fibonacci number for idx-1.
+     output := n'th Fibonacci number
+     */
     @tailrec
     def _fibC(idx: Int, current: BigInt, past: BigInt): BigInt = ???
     ???
