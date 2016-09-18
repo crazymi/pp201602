@@ -13,6 +13,7 @@
 
 - 09/05: Lecture slide is uploaded [here](lecture.pdf). Slides will not be separated into parts, rather it will be continuously appended to this single file. So check it regularly.
 - 09/18: Homework 01 is ***reissued***, because the old homework contained "List" data structure that we haven't learned yet.
+  + Also deadline is delayed correspondingly. Please check below.
 
 ## Assignments
 
