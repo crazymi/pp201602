@@ -12,12 +12,13 @@
 ## Announcements
 
 - 09/05: Lecture slide is uploaded [here](lecture.pdf). Slides will not be separated into parts, rather it will be continuously appended to this single file. So check it regularly.
+- 09/18: Homework 01 is ***reissued***, because the old homework contained "List" data structure that we haven't learned yet.
 
 ## Assignments
 
 | Published     | Due       	| Delay         |Description                   	 	 	 	 	 	 	 	 	 	  	| Points 	|
 |------------	|------------	|-------------  |-------------------------------------------------------------------	|-------	|
-| 09/07     	|09/18 23:59    | 09/25 23:59   | Recursion                                                            	| TBA   	|
+| 09/18     	|09/28 23:59    | 10/05 23:59   | Recursion                                                            	| TBA   	|
 
 ## Must Read
 
