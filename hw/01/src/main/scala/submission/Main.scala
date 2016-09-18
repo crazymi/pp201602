@@ -38,6 +38,7 @@ object main {
    it adds upper left value once more.
    Write the program to calculate the number in PPascal's Triangle, given row
    and column.
+   You may assume 0 <= r <= 8 && 0 <= c <= r
 
                            1
                         1     1
@@ -49,7 +50,6 @@ object main {
       1     13    71    209   351   321   127   1
    1     15    97    351   769   1023  769   255   1
    */
-  //You may assume 0 <= r <= 8 && 0 <= c <= r
   def ppascal(r: Int, c: Int): Int = ???
 
   /*
