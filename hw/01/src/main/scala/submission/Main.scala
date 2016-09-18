@@ -29,10 +29,6 @@ object main {
    Passing "sbt test" does *NOT* ensure your assignment passes our real test data.
 
    Before asking for clarification of problem statement, look through test data.
-
-   For below exercises, there will be no big test data.
-   It means, you need not worry about integer overflow/stack overflow/time limit/etc
-   unless your implementation is really weird.
    */
 
   /*
