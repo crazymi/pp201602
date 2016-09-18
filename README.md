@@ -7,13 +7,18 @@
         * *DO NOT* send emails to `youn...@sf.snu.ac.kr`.
         * In the case of sending TA an email, specify sender's name and student ID.
     + Place: Bldg 301 Rm 416
-    + Office Hour: TBA.  In the case of needing an extra time, please email me to make an appointment.
+    + Office Hour:
+      * Professor: 407 Bldg 301, 13:00-14:00 Mon
+      * TA:        416 Bldg 301, 14:00-15:00 Mon
 
 ## Announcements
 
 - 09/05: Lecture slide is uploaded [here](lecture.pdf). Slides will not be separated into parts, rather it will be continuously appended to this single file. So check it regularly.
 - 09/18: Homework 01 is ***reissued***, because the old homework contained "List" data structure that we haven't learned yet.
   + Also deadline is delayed correspondingly. Please check below.
+- 09/18: Office hour is fixed.
+  + Professor: 407 Bldg 301, 13:00-14:00 Mon
+  + TA:        416 Bldg 301, 14:00-15:00 Mon
 
 ## Assignments
 
