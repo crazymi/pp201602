@@ -10,60 +10,43 @@ class TestSuite extends FunSuite {
     assert(ppascal(6,6) == 1)
   }
 
-  test("bbalance") {
-    assert(bbalance("""
-   Example of bbalanced: "(*)(*)"
-""".toList))
-    assert(bbalance("""
-   Example of bbalanced: "(()*())"
-""".toList))
-    assert(bbalance("""
-   Example of bbalanced: "(*())"
-""".toList))
-    assert(!bbalance("""
-   Example of not bbalanced: "*()"
-""".toList))
-    assert(!bbalance("""
-   Example of not bbalanced: "()*()"
-""".toList))
+  test("fibA") {
+    assert(fibA(1) == 1)
+    assert(fibA(2) == 1)
+    assert(fibA(3) == 2)
+    assert(fibA(4) == 3)
+    assert(fibA(5) == 5)
+    assert(fibA(10) == 55)
+    assert(fibA(20) == 6765)
   }
 
-  test("bbalance-misc") {
-    assert(bbalance("(((())))".toList))
-    assert(bbalance("""
-   Exercise 2: Parentheses BBalancing.
-   Check whether given string (List[Char]) is well balanced.
-   Ignore all other characters except "(", ")
-""".toList))
-    assert(!bbalance("""
-   Exercise 2: Parentheses BBalancing.
-   Check whether given string (List[Char]) is well balanced.
-   Ignore all other characters except "(", ")", "*".
-   Example of balanced: "(aaa(bb)ccc)", "aaa(eee)iii(ooo)uuu".
-""".toList))
-    assert(!bbalance("""
-   Example of not balanced: "ppp)iii(kkk)aaa(ccc", "hhh(uuu()"
-   Also, "*" is a bomb. So this exercise is called "BBalancing".
-   If "*" appears between balanced parentheses, return false.
-""".toList))
+  test("fibB") {
+    assert(fibB(1) == 1)
+    assert(fibB(2) == 1)
+    assert(fibB(3) == 2)
+    assert(fibB(4) == 3)
+    assert(fibB(5) == 5)
+    assert(fibB(10) == 55)
+    assert(fibB(20) == 6765)
+    assert(fibB(100) == BigInt("354224848179261915075"))
+    assert(fibB(200) == BigInt("280571172992510140037611932413038677189525"))
+    assert(fibB(300) == BigInt("222232244629420445529739893461909967206666939096499764990979600"))
+    assert(fibB(400) == BigInt("176023680645013966468226945392411250770384383304492191886725992896575345044216019675"))
+    assert(fibB(500) == BigInt("139423224561697880139724382870407283950070256587697307264108962948325571622863290691557658876222521294125"))
   }
 
-  test("countChange-4") {
-    assert(countChange(4,0,List(1,2)) === 0)
-    assert(countChange(4,1,List(1,2)) === 0)
-    assert(countChange(4,2,List(1,2)) === 2) // 2 2, 2 1 1
-    assert(countChange(4,3,List(1,2)) === 2)
-    assert(countChange(4,4,List(1,2)) === 3) // 1 1 1 1
-    assert(countChange(4,999,List(1,2)) === 3)
-  }
-
-  test("countChange-5") {
-    assert(countChange(5,0,List(1,2,3,5)) === 0)
-    assert(countChange(5,1,List(1,2,3,5)) === 2) // 5, 3 2
-    assert(countChange(5,2,List(1,2,3,5)) === 4) // 2 2 1, 3 1 1
-    assert(countChange(5,3,List(1,2,3,5)) === 5) // 2 1 1 1
-    assert(countChange(5,4,List(1,2,3,5)) === 5)
-    assert(countChange(5,5,List(1,2,3,5)) === 6) // 1 1 1 1 1
-    assert(countChange(5,999,List(1,2,3,5)) === 6)
+  test("fibC") {
+    assert(fibC(1) == 1)
+    assert(fibC(2) == 1)
+    assert(fibC(3) == 2)
+    assert(fibC(4) == 3)
+    assert(fibC(5) == 5)
+    assert(fibC(10) == 55)
+    assert(fibC(20) == 6765)
+    assert(fibC(100) == BigInt("354224848179261915075"))
+    assert(fibC(200) == BigInt("280571172992510140037611932413038677189525"))
+    assert(fibC(300) == BigInt("222232244629420445529739893461909967206666939096499764990979600"))
+    assert(fibC(400) == BigInt("176023680645013966468226945392411250770384383304492191886725992896575345044216019675"))
+    assert(fibC(500) == BigInt("139423224561697880139724382870407283950070256587697307264108962948325571622863290691557658876222521294125"))
   }
 }

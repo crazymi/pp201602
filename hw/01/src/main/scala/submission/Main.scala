@@ -1,4 +1,5 @@
 package submission
+import scala.annotation.tailrec
 
 object main {
   def main(args: Array[String]) {
@@ -58,29 +59,40 @@ object main {
   def ppascal(r: Int, c: Int): Int = ???
 
   /*
-   Exercise 2: Parentheses BBalancing.
-   Check whether given string (List[Char]) is well balanced.
-   Ignore all other characters except "(", ")", "*".
-   Example of balanced: "(aaa(bb)ccc)", "aaa(eee)iii(ooo)uuu".
-   Example of not balanced: "ppp)iii(kkk)aaa(ccc", "hhh(uuu()"
-   Also, "*" is a bomb. So this exercise is called "BBalancing".
-   If there exists some "(", ")" and "*" is inside them, bomb is safe so ignore it.
-   Otherwise, if bomb appears out of all parentheses, you should return false.
-   Example of bbalanced: "(*)(*)"
-   Example of bbalanced: "(()*())"
-   Example of bbalanced: "(*())"
-   Example of not bbalanced: "*()"
-   Example of not bbalanced: "()*()"
+   Exercise 2: Fibonacci
+   A) Given n, calculate n'th value of Fibonacci number. (https://en.wikipedia.org/wiki/Fibonacci_number)
+   Having exponential time complexity is OK for this problem.
+   You may assume 1 <= n <= 20.
    */
-  def bbalance(chars: List[Char]): Boolean = ???
+  def fibA(n: Int): Int = ???
 
   /*
-   Exercise 3: Counting Change.
-   You can use coins with value listed in "coins".
-   Return the number of cases that you can bould "money" with given sort of coins.
-   You can use same coin at most "max" times.
-   Ignore ordering: 4 = 1 + 1 + 2 = 1 + 2 + 1 = 2 + 1 + 1 is counted as same.
+   B) Same with a), but you should implement it faster.
+   Having exponential time complexity is NOT OK for this problem.
+   Your algorithm should take linear time complexity.
+   You may assume 1 <= n <= 10^3.
    */
-  //You may assume money >= 0, max >= 0
-  def countChange(money: Int, max: Int, coins: List[Int]): Int = ???
+  def fibB(n: Int): BigInt = {
+    /*
+     This skeleton code is just for hint.
+     You may implement this problem in your own way.
+     idx := current index
+     current := Fibonacci number for idx.
+     past := Fibonacci number for idx-1.
+     */
+    def _fibB(idx: Int, current: BigInt, past: BigInt): BigInt = ???
+    ???
+  }
+
+  /*
+   C) Same with b), but you should implement it with tail recursion.
+   By using tail recursion strategy, your algorithm will not take linear stack depth.
+   Instead it will only take constant stack depth.
+   You may assume 1 <= n <= 10^3.
+   */
+  def fibC(n: Int): BigInt = {
+    @tailrec
+    def _fibC(idx: Int, current: BigInt, past: BigInt): BigInt = ???
+    ???
+  }
 }
