@@ -92,7 +92,7 @@ object main {
    C) Same with b), but you should implement it with tail recursion.
    By using tail recursion strategy, your algorithm will not take linear stack depth.
    Instead it will only take constant stack depth.
-   You may assume 1 <= n <= 10^3.
+   You may assume 1 <= n <= 10^5.
    */
   def fibC(n: Int): BigInt = {
     /*
