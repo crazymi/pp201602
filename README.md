@@ -19,12 +19,13 @@
 - 09/18: Office hour is fixed.
   + Professor: 407 Bldg 301, 13:00-14:00 Mon
   + TA:        416 Bldg 301, 14:00-15:00 Mon
+- 09/28: Change HW01/'s due to 10/10
 
 ## Assignments
 
 | Published     | Due       	| Delay         |Description                   	 	 	 	 	 	 	 	 	 	  	| Points 	|
 |------------	|------------	|-------------  |-------------------------------------------------------------------	|-------	|
-| 09/18     	|09/28 23:59    | 10/05 23:59   | Recursion                                                            	| TBA   	|
+| 09/18     	|10/10 23:59    | 10/17 23:59   | Recursion                                                            	| TBA   	|
 | 09/28     	|10/10 23:59    | 10/17 23:59   | List                                                            	| TBA   	|
 
 ## Must Read
