@@ -1,3 +1,6 @@
 [submodule "hw/02"]
 	path = hw/02
 	url = git@github.com:snu-sf-class/pp201602-hw-02.git
+[submodule "hw/03"]
+	path = hw/03
+	url = git@github.com:snu-sf-class/pp201602-hw-03.git
