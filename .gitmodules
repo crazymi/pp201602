@@ -4,3 +4,6 @@
 [submodule "hw/03"]
 	path = hw/03
 	url = git@github.com:snu-sf-class/pp201602-hw-03.git
+[submodule "hw/04"]
+	path = hw/04
+	url = https://github.com/snu-sf-class/pp201602-hw-04
