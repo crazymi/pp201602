@@ -80,4 +80,4 @@ Look at first day part of [lecture slide](lecture.pdf).
     + *DO NOT USE REUSE YOUR OTHER PASSWORD*. It is `http`.
     + If your submission status is `SYSTEM ERROR` or `RUNNING` for a long time, even after refreshing your web browser for several times, please ask the TA.
 - For each homework, zip "submission" directory as *WHOLE* and then submit that single zip file.
-- *DO NOT ATTACK* Any potentially malicious attempt is prohibited, such as file system accessing.
+- *DO NOT ATTACK*. Any potentially malicious attempt may get significant penalty, such as file system accessing.
