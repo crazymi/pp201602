@@ -22,6 +22,7 @@
 - 09/28: Change HW01/'s due to 10/10
 - 10/10: Minor update on hw02/hw03's skeleton code. Please check and then submit. [link](https://github.com/snu-sf-class/pp201602/issues/26#issuecomment-252497792) [link](https://github.com/snu-sf-class/pp201602/issues/21#issuecomment-252497664)
 - Submission server is now ready. Please check below "submission" section.
+- 10/10: Midterm date: 10/29 (Sat.) 14:00~18:00
 
 ## Assignments
 
