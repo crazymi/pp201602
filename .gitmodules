@@ -7,3 +7,6 @@
 [submodule "hw/04"]
 	path = hw/04
 	url = https://github.com/snu-sf-class/pp201602-hw-04
+[submodule "hw/05"]
+	path = hw/05
+	url = git@github.com:snu-sf-class/pp201602-hw-05.git

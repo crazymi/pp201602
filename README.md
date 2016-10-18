@@ -32,6 +32,7 @@
 | 09/28     	|10/10 23:59    | 10/17 23:59   | List(ADT, Match)                                                            	| TBA   	|
 | 10/04     	|10/17 23:59    | 10/24 23:59   | Polymorphism                                                            	| TBA   	|
 | 10/08     	|10/24 23:59    | 10/31 23:59   | Subtype                                                            	| TBA   	|
+| 10/18     	|10/31 23:59    | 11/07 23:59   | AbstractClass                                                            	| TBA   	|
 
 ## Must Read
 
