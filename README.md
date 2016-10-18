@@ -23,6 +23,7 @@
 - 10/10: Minor update on hw02/hw03's skeleton code. Please check and then submit. [link](https://github.com/snu-sf-class/pp201602/issues/26#issuecomment-252497792) [link](https://github.com/snu-sf-class/pp201602/issues/21#issuecomment-252497664)
 - Submission server is now ready. Please check below "submission" section.
 - 10/10: Midterm date: 10/29 (Sat.) 14:00~18:00
+- On questions regarding compile error: [link](https://github.com/snu-sf-class/pp201602/issues/56)
 
 ## Assignments
 
@@ -66,7 +67,12 @@ Look at first day part of [lecture slide](lecture.pdf).
 
 ### Assignment
 
-- Assignments will be issued every Wednesday.  The deadline is the next Sunday (10 days later).  The deadline for the delayed submission is the next to the next Sunday (17 days later).
+- Assigenment deadline will be Monday. (about 10 days) The deadline for the delayed submission is next Monday.
+- You may use "sbt test" command in *PROJECT's HOME DIRECTORY* to run given test.
+  + Of course, this does not ensure you to pass all the data in actual grading.
+- On wart remover: [link](https://github.com/snu-sf-class/pp201602/issues/51)
+- On grading server: [link](https://github.com/snu-sf-class/pp201602/issues/30)
+  + Especially, [link](https://github.com/snu-sf-class/pp201602/issues/30#issuecomment-252533533)
 
 #### Honor Code: *DO NOT CHEAT*
 
